@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indeterminate Circular Progress Bar</title>
+  <link rel="stylesheet" href="css/component_payment.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="progress"></div>
+  <div id="progress-text" class="progress-text">0%</div>
+  <div id="message" class="message">Please wait while your payment is being confirmed...</div>
+  <div id="sub-message" class="sub-message">
+    Verifying payment. You can proceed to the homepage. We'll process in the background.
+  </div>
+  <div class="buttons">
+    <button class="btn" id="download-button" >Download</button>
+    <button class="btn" onclick="getHelp()">Home</button>
+  </div>
+</div>
+<script src="js/base.js"></script>
+<script src="js/html_pending_payment_dues.js"></script>
+</body>
+</html>
