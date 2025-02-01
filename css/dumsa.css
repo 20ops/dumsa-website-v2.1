@@ -197,3 +197,9 @@
 .error-input {
     border-color: red;
 }
+.inter{
+    background-color: rgb(43, 44, 44);
+    color: white;
+    border-radius: 10%;
+    padding: 1em;
+}
